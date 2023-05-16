@@ -1,5 +1,8 @@
 # food_order
 
+Nama : Augie Sugiarto Nunka
+NIM  : 2111102441146
+kelas: B
 A new Flutter project.
 
 ## Getting Started

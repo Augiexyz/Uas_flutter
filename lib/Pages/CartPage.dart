@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:food_order/widgets/AppBarWidget.dart';
-import 'package:food_order/widgets/DrawerWidget.dart';
+// import 'package:food_order/widgets/AppBarWidget.dart';
+// import 'package:food_order/widgets/DrawerWidget.dart';
 import 'package:food_order/widgets/CartBottomNavBar.dart';
 
 class CartPage extends StatelessWidget {
@@ -19,7 +19,7 @@ class CartPage extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const AppBarWidget(),
+                  
                   const Padding(
                     padding: EdgeInsets.only(
                       top: 20,
@@ -56,7 +56,7 @@ class CartPage extends StatelessWidget {
                           Container(
                             alignment: Alignment.center,
                             child: Image.asset(
-                              "assets/images/nasi-goreng-spesial.png",
+                              "assets/images/mie-goreng.png",
                               height: 80,
                               width: 150,
                             ),
@@ -68,21 +68,21 @@ class CartPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
                                 Text(
-                                  "Nasi Goreng Spesial",
+                                  "Mie Goreng",
                                   style: TextStyle(
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
                                 Text(
-                                  "dengan campuran udah",
+                                  "Pedas",
                                   style: TextStyle(
                                     fontSize: 14,
                                     //fontWeight: FontWeight.bold,
                                   ),
                                 ),
                                 Text(
-                                  "Rp17.000",
+                                  "Rp15.000",
                                   style: TextStyle(
                                       fontSize: 18,
                                       fontWeight: FontWeight.bold,
@@ -165,7 +165,7 @@ class CartPage extends StatelessWidget {
                                   ),
                                 ),
                                 Text(
-                                  "dengan campuran udah",
+                                  "sambelnya pisah",
                                   style: TextStyle(
                                     fontSize: 14,
                                     //fontWeight: FontWeight.bold,
@@ -240,11 +240,11 @@ class CartPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  "Pesanan:",
+                                  "Total pesanan:",
                                   style: TextStyle(fontSize: 20),
                                 ),
                                 Text(
-                                  "Rp",
+                                  "4",
                                   style: TextStyle(fontSize: 20),
                                 ),
                               ],
@@ -262,32 +262,11 @@ class CartPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  "Pesanan:",
+                                  "Pengiriman:",
                                   style: TextStyle(fontSize: 20),
                                 ),
                                 Text(
-                                  "Rp",
-                                  style: TextStyle(fontSize: 20),
-                                ),
-                              ],
-                            ),
-                          ),
-                          Divider(
-                            color: Colors.black,
-                          ),
-                          Padding(
-                            padding: EdgeInsets.symmetric(
-                              vertical: 10,
-                            ),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(
-                                  "Pesanan:",
-                                  style: TextStyle(fontSize: 20),
-                                ),
-                                Text(
-                                  "Rp",
+                                  "Rp10.000",
                                   style: TextStyle(fontSize: 20),
                                 ),
                               ],
@@ -304,11 +283,32 @@ class CartPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  "Pesanan:",
+                                  "PPN:",
                                   style: TextStyle(fontSize: 20),
                                 ),
                                 Text(
-                                  "Rp",
+                                  "Rp2.000",
+                                  style: TextStyle(fontSize: 20),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Divider(
+                            color: Colors.black,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.symmetric(
+                              vertical: 10,
+                            ),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "Total bayar:",
+                                  style: TextStyle(fontSize: 20),
+                                ),
+                                Text(
+                                  "Rp76.000",
                                   style: TextStyle(fontSize: 20),
                                 ),
                               ],
@@ -327,7 +327,7 @@ class CartPage extends StatelessWidget {
           )
         ],
       ),
-      drawer: const DrawerWidget(),
+      // drawer: const DrawerWidget(),
       bottomNavigationBar: const CartBottomNavBar(),
     );
   }

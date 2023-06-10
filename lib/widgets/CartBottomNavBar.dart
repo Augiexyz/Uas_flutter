@@ -23,7 +23,7 @@ class CartBottomNavBar extends StatelessWidget {
                   width: 19,
                 ),
                 Text(
-                  "Rp",
+                  "Rp76.000",
                   style: TextStyle(
                       fontSize: 19,
                       fontWeight: FontWeight.bold,

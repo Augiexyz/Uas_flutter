@@ -9,33 +9,8 @@ class DrawerWidget extends StatelessWidget {
     return Drawer(
       child: ListView(
         children: [
-          DrawerHeader(
-            padding: EdgeInsets.zero,
-            child: UserAccountsDrawerHeader(
-              decoration: const BoxDecoration(
-                color: Color(0xFF1E3E3E),
-              ),
-              otherAccountsPictures: [
-                Image.asset("assets/images/foto-augie.jpeg")
-              ],
-              otherAccountsPicturesSize: const Size(60, 60),
-              accountName: const Text(
-                "Augie Sugiarto N ",
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              accountEmail: const Text(
-                "NIM 2111102441146 \n2111102441146@umkt.ac.id",
-                style: TextStyle(
-                  fontSize: 15,
-                  //fontWeight: FontWeight.,
-                ),
-              ),
-            ),
-          ),
-          const ListTile(
+
+           const ListTile(
             leading: Icon(
               CupertinoIcons.home,
               color: Color(0xFF1E3E3E),

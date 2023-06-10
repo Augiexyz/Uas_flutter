@@ -5,7 +5,7 @@ import 'package:food_order/widgets/AppBarWidget.dart';
 import 'package:food_order/widgets/PopulerItemsWidget.dart';
 import 'package:food_order/widgets/NewestItemsWidget.dart';
 import 'package:food_order/widgets/CategoriesWidget.dart';
-import 'package:food_order/widgets/DrawerWidget.dart';
+// import 'package:food_order/widgets/DrawerWidget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: ListView(
         children: [
-          const AppBarWidget(),
+          
           Padding(
             padding: const EdgeInsets.symmetric(
               vertical: 10,
@@ -104,7 +104,7 @@ class HomePage extends StatelessWidget {
           const NewestItemsWidget(),
         ],
       ),
-      drawer: const DrawerWidget(),
+      // drawer: const DrawerWidget(),
       floatingActionButton: Container(
         decoration:
             BoxDecoration(borderRadius: BorderRadius.circular(20), boxShadow: [
@@ -123,7 +123,7 @@ class HomePage extends StatelessWidget {
           child: const Icon(
             CupertinoIcons.cart,
             size: 28,
-            color: Color(0xFF1E3E3E),
+            color: Color(0xFF1E3E3E), 
           ),
         ),
       ),

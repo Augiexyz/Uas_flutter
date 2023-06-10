@@ -19,11 +19,11 @@ class ItemPage extends StatelessWidget {
         padding: const EdgeInsets.only(top: 5),
         child: ListView(
           children: [
-            const AppBarWidget(),
+            
             Padding(
               padding: const EdgeInsets.all(16),
               child: Image.asset(
-                "assets/images/nasi-goreng.png",
+                "assets/images/nasi-goreng-spesial.png",
                 height: 300,
               ),
             ),
@@ -132,7 +132,7 @@ class ItemPage extends StatelessWidget {
                           vertical: 10,
                         ),
                         child: Text(
-                          "nasi goreng spesial nasi goreng spesial nasi goreng spesial nasi goreng spesialnasi goreng spesialnasi goreng spesial nasi goreng spesial nasi goreng spesial nasi goreng spesial nasi goreng spesialnasi goreng spesial nasi goreng spesial",
+                          "",
                           textAlign: TextAlign.justify,
                           style: TextStyle(fontSize: 16),
                         ),

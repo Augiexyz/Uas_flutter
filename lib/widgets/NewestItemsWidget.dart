@@ -144,7 +144,7 @@ class NewestItemsWidget extends StatelessWidget {
                                 fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                           const Text(
-                            "Nasi goreng yang dibuat dengan banyak isian topping dan juga bumbu rempah-rempah",
+                            "Nasi  ayam goreng crispy dengan cocolan sambel yang pedas manis",
                             style: TextStyle(
                               fontSize: 14,
                             ),
@@ -232,7 +232,7 @@ class NewestItemsWidget extends StatelessWidget {
                                 fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                           const Text(
-                            "Nasi goreng yang dibuat dengan banyak isian topping dan juga bumbu rempah-rempah",
+                            "Es jeruk dengan jeruk asli yang langsung di peras",
                             style: TextStyle(
                               fontSize: 14,
                             ),
@@ -320,7 +320,7 @@ class NewestItemsWidget extends StatelessWidget {
                                 fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                           const Text(
-                            "Nasi goreng yang dibuat dengan banyak isian topping dan juga bumbu rempah-rempah",
+                            "Mie kuah dengan berbagai level kepedasannya",
                             style: TextStyle(
                               fontSize: 14,
                             ),

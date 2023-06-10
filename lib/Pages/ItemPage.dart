@@ -10,7 +10,7 @@ import 'package:food_order/widgets/AppBarWidget.dart';
 import '../widgets/ItemBottomNavBar.dart';
 
 class ItemPage extends StatelessWidget {
-  const ItemPage({super.key});
+  const ItemPage({super.key}); 
 
   @override
   Widget build(BuildContext context) {

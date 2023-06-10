@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:food_order/widgets/CartBottomNavBar.dart';
 
 class CartPage extends StatelessWidget {
-  const CartPage({super.key});
+  const CartPage({super.key}); 
 
   @override
   Widget build(BuildContext context) {

@@ -6,9 +6,11 @@ import 'package:flutter/material.dart';
 import 'package:food_order/widgets/CartBottomNavBar.dart';
 
 class CartPage extends StatelessWidget {
-  const CartPage({super.key}); 
+  const  CartPage ({ super .key } );
 
-  @override
+
+ 
+  @mengesampingkan
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(
